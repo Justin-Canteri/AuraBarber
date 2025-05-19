@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aura studio</title>
+        <link rel="stylesheet" href="/style.css"> <!-- Conexión opcional al CSS -->
+        <link rel="stylesheet" href="styleReserva.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <h1>Aura studio</h1>
+        <div id="IdModal" class="modal">
+            <h2>Calendario de Reservas</h2>
+            <div id="calendar">
+                <script src="/reservas.js"></script>
+            </div>
+            <div id="Horarios">
+                <p>Aqui van los Horarios</p>
+            </div>
+            <a href="#" rel="modal:close">Cerrar</a>
+        </div>
+
+        <p><a href="#IdModal" rel="modal:open">Reserva</a></p>
+        
+    </body>
+
+</html>
